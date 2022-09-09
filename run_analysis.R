@@ -28,7 +28,7 @@ data_mean_std <- data_full %>%
 # 3. Uses descriptive activity names to name the activities in the data set
 data_mean_std$code <- activities[data_mean_std$code, 2] 
 
-# rename data frame 
+# rename data frame (for convenience)
 df <- data_mean_std
 
 # 4. Appropriately labels the data set with descriptive variable names. 
